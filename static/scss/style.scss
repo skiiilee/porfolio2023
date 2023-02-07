@@ -75,8 +75,8 @@ small{font-size: .875em;}
     .menu a:hover{color: $m-t-color; }
 }
 .section{
+    display: flex; justify-content: center; align-items: center; min-height: 100vh;
     .s-title{font-size: 3em; font-family: 'Pacifico', cursive; color: $m-t-color; padding-bottom: 50px; }
-    min-height: 100vh;
 }
 .intro{
     text-align: center;
