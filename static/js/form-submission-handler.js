@@ -66,7 +66,7 @@
       var xhr = new XMLHttpRequest();
       xhr.open('POST', url);
       // xhr.withCredentials = true;
-      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.setRequestHeader("Content-Type", "text/html; charset=utf-8");
       xhr.onreadystatechange = function() {
           if (xhr.readyState === 4 && xhr.status === 200) {
             form.reset();
